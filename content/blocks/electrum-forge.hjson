@@ -1,0 +1,26 @@
+type: GenericSmelter
+name: Electrum Forge
+description: Plays a music note.
+size: 2
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 0
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      copper/1
+    ]
+  }
+}
+requirements: [
+  lead/50
+  copper/50
+  silicon/50
+]
+category: crafting
+research: silver-crucible
+idleSound: swings
+idleSoundVolume: 5
+outputItem: copper/1
