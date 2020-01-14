@@ -20,7 +20,6 @@ requirements: [
   silicon/50
 ]
 category: crafting
-research: conveyor
 idleSound: swings
 idleSoundVolume: 5
 outputItem: copper/1
