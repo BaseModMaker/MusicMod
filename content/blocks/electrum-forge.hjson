@@ -22,4 +22,4 @@ requirements: [
 category: crafting
 idleSound: C3
 idleSoundVolume: 0.5
-outputItem: lead/1
+outputItem: copper/1
