@@ -20,6 +20,6 @@ requirements: [
   silicon/50
 ]
 category: crafting
-idleSound: swings
+idleSound: C3
 idleSoundVolume: 0.5
 outputItem: copper/1
