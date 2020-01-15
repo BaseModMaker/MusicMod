@@ -1,0 +1,25 @@
+name: Music block C#3
+description: Plays a music note.
+type: GenericSmelter
+size: 1
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      copper/1
+    ]
+  }
+}
+requirements: [
+  lead/50
+  copper/50
+  silicon/50
+]
+category: crafting
+idleSound: B3
+idleSoundVolume: 0.9
+outputItem: lead/1
