@@ -299,10 +299,10 @@ const teleporter = extendContent(Block, "teleporter", {
 
 var a = new ItemBridge('nothing')
 
-teleporter.entityType = new Prov({
+music-block.entityType = new Prov({
     get: ()=>a.newEntity()
 })
 
-teleporter.description = "Advanced item transport block. Teleporters input items to other teleporters of the same color. Does nothing if no teleporters of the same color exist. If multiple teleporters exist of the same color, items are distributed evenly. Tap to change color."
+music-block.description = "Advanced item transport block. Teleporters input items to other teleporters of the same color. Does nothing if no teleporters of the same color exist. If multiple teleporters exist of the same color, items are distributed evenly. Tap to change color."
 
 
