@@ -1,7 +1,7 @@
 type: GenericSmelter
-name: Electrum Forge
+name: Music block
 description: Plays a music note.
-size: 2
+size: 1
 hasPower: false
 hasLiquids: false
 hasItems: true
