@@ -1,4 +1,4 @@
-name: Music block
+name: Music block C3
 description: Plays a music note.
 type: GenericSmelter
 size: 1
@@ -6,8 +6,6 @@ hasPower: false
 hasLiquids: false
 hasItems: true
 craftTime: 30
-configurable: true
-update: true
 updateEffect: smeltsmoke
 consumes: {
   items: {
