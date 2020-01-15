@@ -1,6 +1,6 @@
-name: "example-mod"
-displayName: "[orange]Example[gold] Mod" //what displays in the mod selection menu
-author: "Anuke"
-description: "A simple mod. Demonstrates how to make[accent] new ores[] and[orange] machines.[]"
-version: "3.0"
+name: MusicMod
+displayName: [orange]Music[gold]Mod
+author: Base
+description: adds mucic blocks that allow you to play music!
+version: 1.0
 minGameVersion: "101"
