@@ -64,7 +64,7 @@ newRegistry()
 
 
 
-
+/*
 var entities = {};
 function entity(a) {
     var entity = a.ent()
@@ -222,9 +222,11 @@ function Block__tryToOutput(item, myTile, forReal) {
 	peers.lastRefusal = now
     return false;
 }
+*/
 var superInstance = new Block('teleporter-super')
 const teleporter = extendContent(Block, "teleporter", {
-    outputsItems: () => true,
+    /*
+	outputsItems: () => true,
 
     acceptItem(item, myTile, srcTile) {
         return Block__tryToOutput(item, myTile, false);
@@ -259,7 +261,7 @@ const teleporter = extendContent(Block, "teleporter", {
     configured (tile, player, value){
         entity(tile).colorCode(value)
     },
-    
+    */
     buildConfiguration(tile, table) {
         var group = new ButtonGroup()
         group.setMinCheckCount(0);
