@@ -1,4 +1,3 @@
-type: GenericSmelter
 name: Music block
 description: Plays a music note.
 size: 1
