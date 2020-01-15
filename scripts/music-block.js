@@ -89,8 +89,8 @@ function entity(a) {
                 }
             },
 			
-            id() {return entity.id},
-		/*	
+            id() {return entity.id}
+		
             tryToOutput(item, forReal) {
 				
 				this.cacheProximity()
@@ -161,7 +161,7 @@ function entity(a) {
             onProximityUpdate(tile) {
 				needToRegisterAgain = true
 				_proximity = null;
-			},*/
+			},
 			
             removed() {
                 unregister(this);
@@ -225,7 +225,7 @@ function Block__tryToOutput(item, myTile, forReal) {
 
 var superInstance = new Block('teleporter-super')
 const teleporter = extendContent(Block, "teleporter", {
-    /*
+    
 	outputsItems: () => true,
 
     acceptItem(item, myTile, srcTile) {
@@ -261,7 +261,7 @@ const teleporter = extendContent(Block, "teleporter", {
     configured (tile, player, value){
         entity(tile).colorCode(value)
     },
-    */
+    
     buildConfiguration(tile, table) {
         var group = new ButtonGroup()
         group.setMinCheckCount(0);
