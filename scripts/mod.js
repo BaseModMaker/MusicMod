@@ -64,7 +64,7 @@ newRegistry()
 
 
 
-/*
+
 var entities = {};
 function entity(a) {
     var entity = a.ent()
@@ -90,7 +90,7 @@ function entity(a) {
             },
 			
             id() {return entity.id},
-			
+		/*	
             tryToOutput(item, forReal) {
 				
 				this.cacheProximity()
@@ -161,7 +161,7 @@ function entity(a) {
             onProximityUpdate(tile) {
 				needToRegisterAgain = true
 				_proximity = null;
-			},
+			},*/
 			
             removed() {
                 unregister(this);
@@ -222,7 +222,7 @@ function Block__tryToOutput(item, myTile, forReal) {
 	peers.lastRefusal = now
     return false;
 }
-*/
+
 var superInstance = new Block('teleporter-super')
 const teleporter = extendContent(Block, "teleporter", {
     /*
