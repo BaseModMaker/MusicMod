@@ -4,7 +4,7 @@ const siloLaunchEffect = newEffect(20, e => {
     Lines.circle(e.x, e.y, e.fin() * 100); //draw a circle whose radius goes from 0 to 100
 });
 
-const silo = extendContent(Block, "scatter-silo", {
+const silo = extendContent(Block, "music-block", {
     buildConfiguration(tile, table){
         table.addImageButton(Icon.arrowUpSmall, Styles.clearTransi, run(() => {
             tile.configure(0)
